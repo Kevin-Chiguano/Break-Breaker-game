@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "cs1302.fxgame.Driver",
+            "projectName": "proyecto ladrillos_985b6136"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "cs1302.Driver",
+            "projectName": "proyecto ladrillos_ca253f9b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "cs1302.fxgame.Driver",
+            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "proyecto ladrillos_ca253f9b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
